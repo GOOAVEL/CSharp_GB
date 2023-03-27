@@ -44,8 +44,7 @@ void ShowAverageEl(int[,] array2D)
         average[c] = Math.Round(average[c] / i, 1);
 
     Console.Write("Arithmetic mean of each column: ");
-    foreach (var item in average)
-        Console.Write($"{item}; ");
+    foreach (var item in average) Console.Write($"{item}; ");
 }
 
 
